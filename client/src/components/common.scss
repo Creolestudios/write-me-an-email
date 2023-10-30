@@ -1,0 +1,246 @@
+.ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ant-input {
+    border: 1px solid rgba(25, 26, 29, 0.1);
+    border-radius: 35px;
+    padding: 15px 30px 15px 30px;
+    filter: drop-shadow(0px 3px 8px rgba(25, 26, 29, 0.1));
+  }
+
+  .ant-btn {
+    background-color: #edeff7;
+    color: black;
+    width: 189px;
+    height: 55px;
+    border-radius: 10px;
+  }
+
+  .ant-btn:hover {
+    cursor: pointer;
+    background-color: #edeff7;
+    color: black;
+  }
+}
+
+.ant-modal .ant-modal-content {
+  height: 80vh;
+  overflow-y: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ant-modal .ant-modal-content .ant-modal-close {
+  display: none;
+}
+.ant-modal .ant-modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.ant-modal .ant-modal-header .ant-modal-title .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-modal .ant-modal-body {
+  height: 68vh;
+  overflow-y: auto;
+}
+
+.ant-spin-dot {
+  .ant-spin-dot-item {
+    background-color: #34a9d5;
+    height: 25px !important;
+    width: 25px !important;
+    margin: 15px;
+  }
+}
+.ant-spin-text {
+  color: black;
+  font-size: 20px !important;
+}
+
+.ant-scroll-number {
+  background-color: #34a9d5 !important;
+  color: black !important;
+  border: 1px solid transparent;
+}
+
+.ant-form-item-explain-error {
+  margin: 5px 0 0 30px;
+}
+
+.image-container:hover {
+  .badge-container {
+    position: absolute;
+    display: unset;
+    top: 0 !important;
+    right: 0 !important;
+    left: unset;
+    z-index: 1;
+  }
+}
+
+.ant-drawer-content-wrapper {
+  width: 25vw !important;
+  height: 100vh !important;
+}
+
+@media (max-width: 990px) {
+  .ant-drawer-content-wrapper {
+    width: 60vw !important;
+    height: 100vh !important;
+  }
+}
+
+.ant-drawer-close {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+.ant-drawer-body {
+  margin-bottom: 75px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.okbtn,
+.cancelbtn {
+  height: 55px;
+  width: 149px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.okbtn {
+  background-color: #34a9d5;
+}
+
+.cancelbtn {
+  background-color: #edeff7;
+}
+
+.image-item {
+  position: relative;
+  cursor: pointer;
+}
+.image-item img {
+  width: 100%;
+}
+
+.image-item.selected::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+  position: relative;
+}
+
+.badge-container {
+  display: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+@media (max-width: 991px) {
+  .tablecontainer {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+
+.tablecontainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  max-height: calc(100vh);
+}
+
+@media (min-width: 991px) {
+  .tablecontainer {
+    width: 50vw;
+    height: calc(100vh - 130px) !important;
+  }
+
+  .regenerate {
+    position: relative;
+    top: 300px;
+  }
+}
+
+.image-grid {
+  column-count: 2 !important;
+  gap: 10px;
+  display: flow-root !important;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: #edeff7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+.ant-select-item-option-content {
+  font-size: 15px !important;
+}
+
+.ant-select-item-option:hover {
+  background-color: #34a9d5 !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: #34a9d5 !important;
+}

@@ -18,8 +18,15 @@
 </p>
 
 
+<img src="https://drive.google.com/file/d/1w6guRw1sW6rQHfgqbXEaUM-lD9GydbkF/view?usp=drive_link" alt="gitmoji-changelog">
+
 # write-me-an-email
 Application that helps you create an email template with relevant images on any topic. Just describe your topic in brief, let the GPT create you with the email template, shuffle in between the image you find more relevant from the unsplash database and download the template.
+
+
+## DEMO 
+
+https://www.creole.tech/emailgpt/
 
 
 # Server
